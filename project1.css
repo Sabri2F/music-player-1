@@ -1,0 +1,334 @@
+body {
+  background-color: #363062;
+  font-family: "Gantari", sans-serif;
+  margin-top: -0.5vh;
+}
+
+/* header */
+#top-right {
+  display: inline-block;
+  width: 13vw;
+  height: 4rem;
+  margin-top: 2vh;
+  margin-left: 4.4vw;
+}
+
+#top-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-img {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.icon-text {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  margin-top: -20px;
+  margin-left: 1rem;
+}
+
+.icon-text span {
+  font-family: "Gantari", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#top-left {
+  display: inline-block;
+  height: 4rem;
+  margin-top: 1vh;
+}
+
+.fav-bar {
+  display: inline-block;
+  color: white;
+  font-family: "Gantari", sans-serif;
+  font-size: 1rem;
+  margin-left: 5vw;
+  font-weight: 600;
+}
+
+.search-img {
+  position: absolute;
+  margin-left: 36vw;
+  margin-top: 1.5vh;
+  width: 1.3rem;
+  height: 1.4rem;
+}
+
+#top-left input {
+  margin-left: 35vw;
+  color: grey;
+  background-color: #4d4c7d;
+  border: none;
+  width: 17vw;
+  border-radius: 0.4rem;
+  height: 3.1vh;
+  font-size: 1rem;
+}
+
+.mic-img {
+  position: absolute;
+  margin-left: -2vw;
+  margin-top: 1.7vh;
+  width: 1.3rem;
+  height: 1.4rem;
+}
+
+.bell-img {
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 1.5vh;
+  width: 1.8rem;
+  height: 1.7rem;
+  border-radius: 50%;
+}
+
+.bell-img:hover {
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 2.5vh;
+  width: 1.8rem;
+  height: 1.7rem;
+  box-shadow: 5px 8px 40px 0px grey;
+}
+
+.me-img {
+  position: absolute;
+  margin-left: 9vw;
+  width: 3.7rem;
+  height: 3.7rem;
+  border-radius: 50%;
+}
+
+/* main */
+audio {
+  position: fixed;
+  vertical-align: bottom;
+  margin-top: 84vh;
+  width: 100%;
+  border-radius: none;
+  background-color: #413f42;
+}
+
+main {
+  display: inline-block;
+  width: 62vw;
+}
+
+.artist-div {
+  display: inline-block;
+  margin-left: 9vw;
+  margin-top: 9vh;
+  width: 52vw;
+  height: 42vh;
+  background-color: #4d4c7d;
+}
+
+.artist-img-div {
+  display: inline-block;
+}
+
+.artist-img-div img {
+  display: inline-block;
+  width: 20vw;
+  height: 42vh;
+  /* border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; */
+  box-shadow: 2px 30px -20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.artist-details-div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3vw;
+}
+
+.artist-name {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 2rem;
+  font-family: "Gantari", sans-serif;
+  color: white;
+}
+
+.artist-follow {
+  position: absolute;
+  vertical-align: top;
+  margin-top: -1vh;
+  margin-left: 23vw;
+}
+
+.artist-details-div h5 {
+  color: lightgrey;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.artist-details-div p {
+  color: #dddddd;
+  display: inline-block;
+  font-size: 0.8rem;
+  width: 28vw;
+}
+
+/* song-lists-div */
+.song-lists-div {
+  display: inline-block;
+  width: 52vw;
+  margin-left: 9vw;
+  margin-top: 1.3vh;
+}
+
+.song {
+  background-color: #1f1d36;
+  width: 52vw;
+  margin-bottom: 0.5vh;
+}
+
+.song-no {
+  display: inline-block;
+  color: grey;
+  vertical-align: top;
+  margin: 2.5vh 1vw 1vw 1vh;
+  font-size: 0.88rem;
+}
+
+.song-img {
+  display: inline-block;
+  margin-top: 1vh;
+  width: 2vw;
+  height: 4vh;
+  box-shadow: 1px 1px 5px 0px white;
+}
+
+.song-p {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin-left: 1.7vw;
+  width: 8vw;
+}
+
+.song-p span {
+  font-weight: lighter;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.heart {
+  display: inline-block;
+  margin-left: 30vw;
+  margin-top: -1vh;
+  width: 1vw;
+  height: 2.1vh;
+  background-color: transparent;
+}
+
+.plus {
+  display: inline-block;
+  margin-left: 2vw;
+  margin-top: -1vh;
+  width: 0.8vw;
+  height: 1.6vh;
+  background-color: transparent;
+}
+
+/* aside */
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 29vw;
+  margin-top: 9vh;
+  margin-left: 4vw;
+}
+
+.aside-title h3 {
+  display: inline-block;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.aside-title p {
+  display: inline-block;
+  color: lightgrey;
+  font-size: 0.8rem;
+  margin-left: 8.8vw;
+  vertical-align: top;
+  margin-top: 3.3vh;
+}
+
+.bar {
+  margin-bottom: 1vh;
+}
+
+.bar-img {
+  display: inline-block;
+  width: 4vw;
+  height: 8vh;
+  box-shadow: 5px 5px 15px 0px grey;
+}
+
+.bar-p {
+  display: inline-block;
+  color: white;
+  margin-left: 2vw;
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.bar-p span {
+  color: lightgrey;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.bar-dot {
+  display: inline-block;
+  vertical-align: top;
+  color: grey;
+  margin-left: 7vw;
+  width: 0.8vw;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: thick;
+}
+
+.bar-time {
+  display: inline-block;
+  color: grey;
+  font-size: 0.9rem;
+  vertical-align: top;
+  margin-top: 2vh;
+  margin-left: -1.7vw;
+}
+
+.aside-sec {
+  margin-top: 3vh;
+  display: inline-block;
+}
+
+.side-song-lists {
+  display: inline-block;
+}
+
+.side-song-lists .song {
+  background-color: transparent;
+  margin-bottom: 0.4vh;
+  width: 29vw;
+}
+
+.heart-li {
+  display: inline-block;
+  margin-left: 6vw;
+  margin-top: -1vh;
+  width: 1vw;
+  height: 2.1vh;
+  background-color: transparent;
+}
